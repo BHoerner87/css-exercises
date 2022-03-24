@@ -2,3 +2,18 @@
     background-color: #EEC4C9;
     font-family: Verdana, DejaVu Sans, Tahoma, sans-serif;
 }
+
+.med-size {
+  font-size: 24px;
+}
+
+#bluester {
+  color: hsl(218.5, 57.8%, 92.9%);
+  font-size: 36px;
+}
+
+#greengus {
+  background-color: rgb(178, 172, 136);
+  font-size: 24px;
+  font-weight: bold;
+}
