@@ -1,33 +1,44 @@
+/* para and small-para classes both get
+the text color red */
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
 }
 
+/* small-para class gets 14px font size */
 .small-para {
   font-size: 14px;
 }
 
+/* para class gets 22px font size */
 .para {
   font-size: 22px;
 }
 
+/* confirm class gets green background,
+bold, white text */
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+/* button class gets white background,
+black 20px font */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
+/* child class gets red color, 14px font */
 .child {
   color: red;
   font-size: 14px;
 }
 
+/* text class which is child of div type gets
+green color, 22px font */
 div.text {
   color: green;
   font-size: 22px;
