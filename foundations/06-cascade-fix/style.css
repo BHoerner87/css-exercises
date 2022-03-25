@@ -1,13 +1,13 @@
-/* para class gets 22px font size */
-.para {
-  font-size: 22px;
-}
-
 /* para and small-para classes both get
 the text color red */
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+}
+
+/* para class gets 22px font size */
+.para {
+  font-size: 22px;
 }
 
 /* small-para class gets 14px font size */
