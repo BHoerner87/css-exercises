@@ -43,3 +43,8 @@ div.text {
   color: red;
   font-size: 14px;
 }
+
+div.text.child{
+  color: red;
+  font-size: 14px;
+}
