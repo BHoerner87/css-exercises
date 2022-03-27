@@ -6,29 +6,59 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
-  margin-top: 38px;
+  margin: 16px auto; /* Um, excuse me, no one mentioned this. Or
+                        I don't remember it, at any rate. But apparently
+                        setting the margin property "auto" will
+                        automatically horizontally center the element
+                        within its container. So, for example, since
+                        the element with the .card class is within the
+                        body container element, the card gets centered
+                        on the page. And I think that's great. */
+  /* margin-top: 38px; Here I was trying to get white (background)
+                        space to appear at the top, and I chose a
+                        somewhat large, random number. It didn't
+                        affect anything.*/
+  padding: 8px; /* What was required, in fact, was padding
+                    --for the CARD. I think the first place I tried
+                    to put padding was on the title box.*/
 }
 
 .title {
   background: #e3f4ff;
-  padding: 8px;
-  margin: 8px;
+  padding: 8px; /* This part I got right. And I'll try not to feel too
+                    defensive about it because I didn't closely--or even
+                    fully read all the instructions. */
+  /* margin: 8px; Here I was trying to use a typical shorthand margin
+                  all the way around. In fact, the solution indicates
+                  I should stop writing "in fact" so much in code
+                  comments. Nah, I'm just kidding, I'll try not to take
+                  myself so seriously. Writing in long, journal-like
+                  sentences helps me be sure I'm actually thinking
+                  things through.
+                  Anyway, I'm about to save this and then step through
+                  the longhand margin properties as laid out in the
+                  solution.*/
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
   padding: 8px;
-  margin: 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  padding: 8px;
-  margin: 8px;
+  text-align: center;
+  padding 8px;
 }
 
 button {
   background: white;
+  display: block;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
